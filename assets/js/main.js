@@ -294,9 +294,22 @@ function selectFestivalResult(event) {
 }
 
 function download() {
-  debugger;
   const link = document.createElement("a");
-  link.href = window.location = window.location.origin + "/myproject/Ovelgoenne/assets/tables/Schiessliste.pdf";
+  link.href = window.location = window.location.origin + "/myproject/Ovelgoenne/assets/tablesAndFormulate/Pokal_schiessen_ergebnis_2025.pdf";
+  link.download = filename;
+  link.click();
+}
+
+function downloadFreehandDepartment() {
+  const link = document.createElement("a");
+  link.href = window.location = window.location.origin + "/myproject/Ovelgoenne/assets/tablesAndFormulate/Freihandverein_schiesstermine_2025.pdf";
+  link.download = filename;
+  link.click();
+}
+
+function downlaodNewMember() {
+  const link = document.createElement("a");
+  link.href = window.location = window.location.origin + "/myproject/Ovelgoenne/assets/tablesAndFormulate/BeitragAb2024.pdf";
   link.download = filename;
   link.click();
 }

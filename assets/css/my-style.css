@@ -21,3 +21,17 @@
 .news-image {
     text-align: center;
 }
+
+.img-distance {
+    vertical-align: middle;
+    margin-bottom: 20px;
+  }
+
+.img-max-size {
+    max-width: 50%;
+    float: right;
+}
+
+.container-dis {
+    margin-bottom: 10px;
+}
